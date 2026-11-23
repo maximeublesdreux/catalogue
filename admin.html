@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Gestion du catalogue — Maxi Meubles</title>
+<link rel="icon" href="icons/icon-192.png">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#141414;--acc:#ce0964;--mute:#8a8580;--line:#ececea;--soft:#f6f5f3;--red:#c0392b;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#fafaf9;color:var(--ink);font:400 16px/1.45 'Jost',system-ui,sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer;padding:0}
+[hidden]{display:none!important}
+.top{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.top .in{max-width:1300px;margin:0 auto;padding:12px 28px;display:flex;align-items:center;gap:14px}
+.top img{height:40px}
+.top h1{font-size:17px;font-weight:500;margin:0 auto 0 8px;color:var(--mute)}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;border:1px solid var(--line);background:#fff;text-decoration:none;font-size:15px;white-space:nowrap}
+.btn:hover{border-color:var(--ink)}
+.btn.acc{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.danger{color:var(--red);border-color:#efc9c4}
+.btn.full{display:block;width:100%;text-align:center;padding:14px}
+main{max-width:1300px;margin:0 auto;padding:22px 28px 60px}
+.tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+.tools input{flex:0 1 300px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:14px;color:var(--mute)}
+.chips button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+input,select,textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:11px 13px;background:#fff;font-size:16px;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--acc)}
+textarea{min-height:110px;resize:vertical}
+label{display:block;font-size:13px;color:var(--mute);margin:16px 0 6px}
+.muted{color:var(--mute);font-size:14px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;text-align:left;transition:box-shadow .15s}
+.card:hover{box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.card .ph{aspect-ratio:4/3;background:var(--soft);position:relative}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.card .b{padding:10px 12px}
+.card .n{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .r{display:flex;justify-content:space-between;font-size:14px;color:var(--mute)}
+.badge{position:absolute;top:8px;left:8px;font-size:11px;padding:3px 8px;border-radius:999px;background:#fff;text-transform:uppercase;letter-spacing:.08em}
+.badge.h{background:var(--ink);color:#fff}
+.badge.p{background:var(--acc);color:#fff}
+
+dialog{border:0;border-radius:16px;padding:0;width:min(760px,94vw);max-height:92vh;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(0,0,0,.4)}
+.dlg{padding:26px 30px 30px}
+.dlg h2{margin:0 0 6px;font-weight:500;font-size:22px;display:flex;justify-content:space-between;align-items:center}
+.x{font-size:26px;color:var(--mute);width:36px;height:36px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.photos{display:flex;gap:10px;flex-wrap:wrap}
+.photo{position:relative;width:110px;height:110px;border-radius:10px;overflow:hidden;background:var(--soft);cursor:grab}
+.photo img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+.photo .rm{position:absolute;top:5px;right:5px;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.95);font-size:16px;line-height:26px}
+.photo .main{position:absolute;bottom:0;left:0;right:0;font-size:11px;text-align:center;background:var(--acc);color:#fff;padding:3px}
+.photo .mv{position:absolute;bottom:5px;left:5px;font-size:11px;background:rgba(255,255,255,.95);border-radius:999px;padding:3px 8px}
+.addph{width:110px;height:110px;border-radius:10px;border:1.5px dashed #ccc;color:var(--mute);font-size:13px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.addph b{font-size:28px;font-weight:300;line-height:1}
+.drop{outline:2px dashed var(--acc);outline-offset:4px;border-radius:10px}
+.checks{display:flex;gap:26px;margin-top:18px}
+.checks label{display:flex;gap:8px;align-items:center;margin:0;color:var(--ink);font-size:15px;cursor:pointer}
+.checks input{width:18px;height:18px;accent-color:var(--acc)}
+.foot{display:flex;gap:10px;margin-top:26px}
+.foot .sp{flex:1}
+.catrow{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}
+.catrow span{flex:1}
+.catrow button{width:34px;height:34px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.catrow button:disabled{opacity:.3;cursor:default}
+
+.setup{max-width:520px;margin:60px auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px}
+.setup h2{margin:0 0 8px;font-weight:500}
+.help{background:var(--soft);border-radius:10px;padding:14px 16px;font-size:14px;margin-top:14px}
+.help ol{margin:6px 0 0;padding-left:20px}
+
+#toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 22px;border-radius:999px;opacity:0;transition:all .25s;pointer-events:none;z-index:100}
+#toast.show{opacity:1;transform:translateX(-50%)}
+#busy{position:fixed;inset:0;background:rgba(255,255,255,.85);display:none;align-items:center;justify-content:center;flex-direction:column;gap:14px;z-index:90}
+#busy.on{display:flex}
+.spin{width:34px;height:34px;border:3px solid var(--line);border-top-color:var(--acc);border-radius:50%;animation:s .8s linear infinite}
+@keyframes s{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="in">
+  <img src="icons/logo.png" alt="Maxi Meubles"><h1>Gestion du catalogue</h1>
+  <span id="topActs" hidden>
+    <a class="btn" href="./" target="_blank">Voir le catalogue ↗</a>
+    <button class="btn" id="bSet">Réglages</button>
+    <button class="btn acc" id="bAdd">+ Nouvel article</button>
+  </span>
+</div></div>
+
+<!-- connection (once per PC) -->
+<section id="vSetup" class="setup" hidden>
+  <h2>Connexion</h2>
+  <p class="muted" style="margin-top:0">À faire une seule fois sur ce PC.</p>
+  <div class="row2">
+    <div><label>Compte GitHub</label><input id="cfOwner" spellcheck="false"></div>
+    <div><label>Dépôt</label><input id="cfRepo" spellcheck="false"></div>
+  </div>
+  <label>Clé d'accès</label><input id="cfToken" type="password" spellcheck="false" placeholder="github_pat_…">
+  <div class="help">La clé se crée sur GitHub (voir le guide LISEZMOI, étape 2). Elle reste enregistrée uniquement sur ce PC.</div>
+  <div style="margin-top:20px"><button class="btn acc full" id="cfSave">Se connecter</button></div>
+  <p style="text-align:center;margin:14px 0 0"><button class="muted" id="cfDemo" style="text-decoration:underline">Essayer sans connexion (rien n'est enregistré)</button></p>
+</section>
+
+<!-- list -->
+<main id="vList" hidden>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Rechercher un article">
+    <div class="chips" id="fcats"></div>
+    <span class="muted" id="count" style="margin-left:auto"></span>
+  </div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<!-- editor -->
+<dialog id="editor"><div class="dlg">
+  <h2><span id="eTitle">Article</span><button class="x" data-close>×</button></h2>
+  <label>Photos <span class="muted">— glisse des photos ici ou clique sur « Ajouter ». La première est la photo principale.</span></label>
+  <div class="photos" id="ePhotos"></div>
+  <input type="file" id="eFile" accept="image/*" multiple hidden>
+  <label>Nom</label><input id="eName" placeholder="Ex. Canapé Toulouse">
+  <div class="row2">
+    <div><label>Catégorie</label><select id="eCat"></select></div>
+    <div class="row2">
+      <div><label>Prix (€)</label><input id="ePrice" inputmode="decimal"></div>
+      <div><label>Ancien prix</label><input id="eOld" inputmode="decimal" placeholder="promo"></div>
+    </div>
+  </div>
+  <label>Description</label><textarea id="eDesc" placeholder="Dimensions, matière, couleur…"></textarea>
+  <div class="checks">
+    <label><input type="checkbox" id="eNew"> Badge « Nouveau »</label>
+    <label><input type="checkbox" id="eHide"> Masquer (rupture de stock…)</label>
+  </div>
+  <div class="foot">
+    <button class="btn danger" id="eDel">Supprimer</button><span class="sp"></span>
+    <button class="btn" data-close>Annuler</button><button class="btn acc" id="eSave">Enregistrer et publier</button>
+  </div>
+</div></dialog>
+
+<!-- settings -->
+<dialog id="settings"><div class="dlg">
+  <h2>Réglages<button class="x" data-close>×</button></h2>
+  <label>Phrase d'accueil</label><input id="sTag">
+  <label>Catégories <span class="muted">(une catégorie qui contient des articles ne peut pas être supprimée)</span></label>
+  <div id="sCats"></div>
+  <div style="display:flex;gap:10px;margin-top:12px"><input id="sNewCat" placeholder="Nouvelle catégorie"><button class="btn" id="sAddCat">Ajouter</button></div>
+  <div class="foot">
+    <button class="btn" id="logout">Déconnecter ce PC</button><span class="sp"></span>
+    <button class="btn" data-close>Annuler</button><button class="btn acc" id="sSave">Enregistrer et publier</button>
+  </div>
+</div></dialog>
+
+<div id="busy"><div class="spin"></div><div id="busyMsg"></div></div>
+<div id="toast"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+const KEY = 'mm-admin';
+let cfg = JSON.parse(localStorage.getItem(KEY) || 'null'), demo = false, data = null, sha = null;
+const blobs = {};   // photos uploaded during this visit (not yet on the site)
+const src = p => blobs[p] || p;
+function toast(m){ const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 3500); }
+function busy(on, m = ''){ $('#busy').classList.toggle('on', on); $('#busyMsg').textContent = m; }
+document.querySelectorAll('[data-close]').forEach(b => b.onclick = () => b.closest('dialog').close());
+
+/* ---------- GitHub ---------- */
+const enc64 = bytes => { let s = ''; for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000)); return btoa(s); };
+const dec64 = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), c => c.charCodeAt(0)));
+async function gh(path, opt = {}){
+  const r = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`, {
+    ...opt, cache: 'no-store', headers: {Authorization: 'Bearer ' + cfg.token, Accept: 'application/vnd.github+json'}});
+  if (!r.ok){
+    const e = new Error(r.status === 401 ? 'Clé d\'accès refusée ou expirée' : r.status === 403 ? 'La clé n\'a pas le droit d\'écrire (Contents : Read and write)' : r.status === 404 ? 'Dépôt ou fichier introuvable' : r.status === 409 || r.status === 422 ? 'Conflit' : 'Erreur GitHub ' + r.status);
+    e.status = r.status; throw e;
+  }
+  return r.json();
+}
+async function load(){
+  busy(true, 'Chargement…');
+  try {
+    if (demo) data = await (await fetch('catalogue.json', {cache: 'no-store'})).json();
+    else { const f = await gh('catalogue.json'); sha = f.sha; data = JSON.parse(dec64(f.content)); }
+    data.items ||= []; data.cats ||= [];
+    $('#vSetup').hidden = true; $('#vList').hidden = false; $('#topActs').hidden = false;
+    renderList();
+  } catch (e){ toast(e.message); showSetup(); }
+  finally { busy(false); }
+}
+async function publish(msg){
+  if (demo){ toast('Mode essai : rien n\'a été publié'); return false; }
+  const put = () => gh('catalogue.json', {method: 'PUT', body: JSON.stringify({message: msg, sha, content: enc64(new TextEncoder().encode(JSON.stringify(data, null, 1)))})});
+  try { sha = (await put()).content.sha; }
+  catch (e){ if (e.status !== 409 && e.status !== 422) throw e; sha = (await gh('catalogue.json')).sha; sha = (await put()).content.sha; }
+  return true;
+}
+async function uploadPhoto(path, blob){ if (!demo) await gh(path, {method: 'PUT', body: JSON.stringify({message: 'Photo ' + path, content: enc64(new Uint8Array(await blob.arrayBuffer()))})}); }
+async function deletePhoto(path){ if (demo) return; try { const f = await gh(path); await gh(path, {method: 'DELETE', body: JSON.stringify({message: 'Suppression ' + path, sha: f.sha})}); } catch (_) {} }
+const done = ok => ok && toast('Publié ✓ — la tablette sera à jour dans 1 à 2 minutes');
+
+/* ---------- list ---------- */
+let fcat = 'Tout';
+function renderList(){
+  const q = $('#q').value.trim().toLowerCase();
+  $('#fcats').innerHTML = ['Tout', ...data.cats].map(c => `<button class="${c === fcat ? 'on' : ''}" data-c="${esc(c)}">${esc(c)}</button>`).join('');
+  const arr = data.items.filter(it => (fcat === 'Tout' || it.cat === fcat) && (!q || (it.name + ' ' + (it.desc || '')).toLowerCase().includes(q)));
+  $('#count').textContent = `${data.items.length} articles`;
+  $('#grid').innerHTML = arr.map(it => { const p = (it.photos || [])[0] || it.img;
+    return `<button class="card" data-id="${esc(it.id)}"><div class="ph">${p ? `<img loading="lazy" src="${esc(src(p))}" alt="">` : ''}
+      ${it.hidden ? '<span class="badge h">Masqué</span>' : it.oldPrice ? '<span class="badge p">Promo</span>' : it.isNew ? '<span class="badge">Nouveau</span>' : ''}</div>
+      <div class="b"><div class="n">${esc(it.name)}</div><div class="r"><span>${esc(it.cat)}</span><span>${it.price ? esc(it.price) + ' €' : '—'}</span></div></div></button>`;
+  }).join('') || '<p class="muted">Aucun article.</p>';
+}
+$('#q').oninput = renderList;
+$('#fcats').onclick = e => { const b = e.target.closest('button'); if (b){ fcat = b.dataset.c; renderList(); } };
+$('#grid').onclick = e => { const b = e.target.closest('.card'); if (b) openEditor(b.dataset.id); };
+$('#bAdd').onclick = () => openEditor(null);
+
+/* ---------- editor ---------- */
+let ed = null;
+function openEditor(id){
+  const it = id ? data.items.find(i => i.id === id) : null;
+  ed = {it, photos: (it ? (it.photos?.length ? it.photos : it.img ? [it.img] : []) : []).map(p => ({path: p, url: src(p)})), removed: []};
+  $('#eTitle').textContent = it ? 'Modifier l\'article' : 'Nouvel article';
+  $('#eName').value = it?.name?.trim() || '';
+  $('#eCat').innerHTML = data.cats.map(c => `<option>${esc(c)}</option>`).join('');
+  $('#eCat').value = it ? it.cat : (fcat !== 'Tout' ? fcat : data.cats[0] || '');
+  $('#ePrice').value = it?.price || ''; $('#eOld').value = it?.oldPrice || ''; $('#eDesc').value = it?.desc?.trim() || '';
+  $('#eNew').checked = !!it?.isNew; $('#eHide').checked = !!it?.hidden; $('#eDel').hidden = !it;
+  renderPhotos(); $('#editor').showModal(); $('#eName').focus();
+}
+function renderPhotos(){
+  $('#ePhotos').innerHTML = ed.photos.map((p, i) => `<div class="photo"><img src="${esc(p.url)}" alt="">
+    <button class="rm" data-rm="${i}" title="Retirer">×</button>
+    ${i ? `<button class="mv" data-first="${i}">★ Principale</button>` : '<div class="main">Principale</div>'}</div>`).join('')
+    + '<button class="addph" id="addph"><b>+</b>Ajouter</button>';
+}
+$('#ePhotos').onclick = e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.id === 'addph') return $('#eFile').click();
+  if (b.dataset.rm){ const [p] = ed.photos.splice(+b.dataset.rm, 1); if (!p.blob) ed.removed.push(p.path); }
+  if (b.dataset.first){ const [p] = ed.photos.splice(+b.dataset.first, 1); ed.photos.unshift(p); }
+  renderPhotos();
+};
+function shrink(file, max = 1600){
+  return new Promise((ok, ko) => { const img = new Image(); img.onload = () => {
+    const k = Math.min(1, max / Math.max(img.width, img.height)), c = document.createElement('canvas');
+    c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+    c.getContext('2d').drawImage(img, 0, 0, c.width, c.height); URL.revokeObjectURL(img.src);
+    c.toBlob(b => b ? ok(b) : ko(new Error('Photo illisible')), 'image/jpeg', 0.82);
+  }; img.onerror = () => ko(new Error('Photo illisible : ' + file.name)); img.src = URL.createObjectURL(file); });
+}
+async function addFiles(files){
+  for (const f of files){ if (!f.type.startsWith('image/')) continue;
+    try { const blob = await shrink(f); ed.photos.push({path: `images/${uid()}.jpg`, blob, url: URL.createObjectURL(blob)}); } catch (e){ toast(e.message); } }
+  renderPhotos();
+}
+$('#eFile').onchange = async e => { await addFiles(e.target.files); e.target.value = ''; };
+const zone = $('#editor');
+zone.addEventListener('dragover', e => { e.preventDefault(); $('#ePhotos').classList.add('drop'); });
+zone.addEventListener('dragleave', e => { if (e.target === zone) $('#ePhotos').classList.remove('drop'); });
+zone.addEventListener('drop', e => { e.preventDefault(); $('#ePhotos').classList.remove('drop'); addFiles(e.dataTransfer.files); });
+
+const num = v => v.trim().replace(/\s|€/g, '').replace(',', '.');
+$('#eSave').onclick = async () => {
+  const name = $('#eName').value.trim();
+  if (!name) return toast('Ajoute un nom');
+  if (!$('#eCat').value) return toast('Crée d\'abord une catégorie dans Réglages');
+  const before = JSON.stringify(data);
+  try {
+    const news = ed.photos.filter(p => p.blob);
+    for (let i = 0; i < news.length; i++){ busy(true, `Envoi des photos ${i + 1}/${news.length}…`); await uploadPhoto(news[i].path, news[i].blob); blobs[news[i].path] = news[i].url; delete news[i].blob; }
+    busy(true, 'Publication…');
+    const it = {...(ed.it || {id: uid(), attrs: {}}), name, cat: $('#eCat').value, price: num($('#ePrice').value), photos: ed.photos.map(p => p.path)};
+    it.img = it.photos[0] || '';
+    const set = (k, v) => { if (v) it[k] = v; else delete it[k]; };
+    set('oldPrice', num($('#eOld').value)); set('desc', $('#eDesc').value.trim()); set('isNew', $('#eNew').checked); set('hidden', $('#eHide').checked);
+    if (ed.it) data.items[data.items.indexOf(ed.it)] = it; else data.items.unshift(it);
+    const ok = await publish((ed.it ? 'Modification ' : 'Ajout ') + name);
+    for (const p of ed.removed) await deletePhoto(p);
+    $('#editor').close(); renderList(); done(ok);
+  } catch (e){ data = JSON.parse(before); toast('Erreur : ' + e.message); }
+  finally { busy(false); }
+};
+$('#eDel').onclick = async () => {
+  const it = ed.it; if (!it || !confirm(`Supprimer « ${it.name.trim()} » du catalogue ?`)) return;
+  const before = JSON.stringify(data); busy(true, 'Suppression…');
+  try {
+    data.items = data.items.filter(i => i !== it);
+    const ok = await publish('Suppression ' + it.name);
+    for (const p of it.photos || []) await deletePhoto(p);
+    $('#editor').close(); renderList(); done(ok);
+  } catch (e){ data = JSON.parse(before); toast('Erreur : ' + e.message); }
+  finally { busy(false); }
+};
+
+/* ---------- settings ---------- */
+let cats = [];
+$('#bSet').onclick = () => { $('#sTag').value = data.tagline || ''; cats = [...data.cats]; renderCats(); $('#settings').showModal(); };
+function renderCats(){
+  $('#sCats').innerHTML = cats.map((c, i) => { const n = data.items.filter(it => it.cat === c).length;
+    return `<div class="catrow"><span>${esc(c)} <span class="muted">· ${n} article${n > 1 ? 's' : ''}</span></span>
+      <button data-up="${i}" ${i ? '' : 'disabled'} title="Monter">↑</button><button data-del="${i}" ${n ? 'disabled' : ''} title="Supprimer">×</button></div>`; }).join('');
+}
+$('#sCats').onclick = e => { const b = e.target.closest('button'); if (!b || b.disabled) return;
+  if (b.dataset.up){ const i = +b.dataset.up; [cats[i - 1], cats[i]] = [cats[i], cats[i - 1]]; }
+  if (b.dataset.del) cats.splice(+b.dataset.del, 1); renderCats(); };
+$('#sAddCat').onclick = () => { const v = $('#sNewCat').value.trim(); if (v && !cats.includes(v)){ cats.push(v); $('#sNewCat').value = ''; renderCats(); } };
+$('#sNewCat').onkeydown = e => { if (e.key === 'Enter') $('#sAddCat').click(); };
+$('#sSave').onclick = async () => {
+  const before = JSON.stringify(data); busy(true, 'Publication…');
+  try { data.tagline = $('#sTag').value.trim(); data.cats = [...cats]; const ok = await publish('Réglages'); $('#settings').close(); renderList(); done(ok); }
+  catch (e){ data = JSON.parse(before); toast('Erreur : ' + e.message); }
+  finally { busy(false); }
+};
+$('#logout').onclick = () => { if (confirm('Effacer la clé d\'accès de ce PC ?')){ localStorage.removeItem(KEY); location.reload(); } };
+
+/* ---------- connection ---------- */
+function showSetup(){
+  $('#vList').hidden = true; $('#topActs').hidden = true; $('#vSetup').hidden = false;
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  $('#cfOwner').value = cfg?.owner || (m ? m[1] : 'maximeublesdreux');
+  $('#cfRepo').value = cfg?.repo || (m ? location.pathname.split('/')[1] : 'catalogue');
+}
+$('#cfSave').onclick = () => {
+  const c = {owner: $('#cfOwner').value.trim(), repo: $('#cfRepo').value.trim(), token: $('#cfToken').value.trim()};
+  if (!c.owner || !c.repo || !c.token) return toast('Remplis les 3 champs');
+  cfg = c; localStorage.setItem(KEY, JSON.stringify(c)); demo = false; load();
+};
+$('#cfDemo').onclick = () => { demo = true; load(); };
+if (cfg) load(); else showSetup();
+</script>
+</body>
+</html>
