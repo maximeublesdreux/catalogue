@@ -1,320 +1,309 @@
 {
-    "name":  "Maxi Meubles",
-    "tagline":  "Meubles, literie et canapés",
-    "cats":  [
-                 "Canapés",
-                 "Lits",
-                 "Matelas",
-                 "Chaises",
-                 "Tables",
-                 "Meubles TV"
-             ],
-    "items":  [
-                  {
-                      "id":  "pmwawao1t1",
-                      "name":  "manal",
-                      "cat":  "Canapés",
-                      "price":  "690",
-                      "photos":  [
-                                     "images/pmwawao1s0.jpg",
-                                     "images/pmwawauck2.jpg"
-                                 ],
-                      "img":  "images/pmwawao1s0.jpg",
-                      "attrs":  {
-                                    "angle":  "Angles réversible",
-                                    "texture":  "Tissu"
-                                },
-                      "desc":  "canapé convertible et réversible avec coffre de rangement 240x150"
-                  },
-                  {
-                      "id":  "pmwawcay24",
-                      "name":  "Greta",
-                      "cat":  "Canapés",
-                      "price":  "690",
-                      "photos":  [
-                                     "images/pmwawcay23.jpg"
-                                 ],
-                      "img":  "images/pmwawcay23.jpg",
-                      "attrs":  {
-                                    "angle":  "Angles réversible",
-                                    "texture":  "Tissu"
-                                },
-                      "desc":  "canapé convertible et réversible avec coffre de rangement 230x170"
-                  },
-                  {
-                      "id":  "pmwawyfjv7",
-                      "name":  "Jean",
-                      "cat":  "Canapés",
-                      "price":  "1190",
-                      "photos":  [
-                                     "images/pmwawyf5z0.jpg",
-                                     "images/pmwawyfi44.jpg",
-                                     "images/pmwawyfbr2.jpg",
-                                     "images/pmwawyfdc3.jpg",
-                                     "images/pmwawyf7d1.jpg",
-                                     "images/pmwawyfj55.jpg",
-                                     "images/pmwawyfjv6.jpg"
-                                 ],
-                      "img":  "images/pmwawyf5z0.jpg",
-                      "attrs":  {
-                                    "angle":  "Angles réversible",
-                                    "texture":  "Velours"
-                                }
-                  },
-                  {
-                      "id":  "pmwdlvz061",
-                      "name":  "Lit Bubble",
-                      "cat":  "Lits",
-                      "price":  "890",
-                      "photos":  [
-                                     "images/pmwdlvz060.jpg",
-                                     "images/pmwdlw7qr2.jpg"
-                                 ],
-                      "img":  "images/pmwdlvz060.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "160*200"
-                  },
-                  {
-                      "id":  "pmwdly5d65",
-                      "name":  "Lit Tacna",
-                      "cat":  "Lits",
-                      "price":  "540",
-                      "photos":  [
-                                     "images/pmwdly5c93.jpg",
-                                     "images/pmwdly5d64.jpg"
-                                 ],
-                      "img":  "images/pmwdly5c93.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "160*200"
-                  },
-                  {
-                      "id":  "pmwdm0an58",
-                      "name":  "Toulouse",
-                      "cat":  "Canapés",
-                      "price":  "1190",
-                      "photos":  [
-                                     "images/pmwdm0am46.jpg",
-                                     "images/pmwdm0an57.jpg"
-                                 ],
-                      "img":  "images/pmwdm0am46.jpg",
-                      "attrs":  {
-                                    "angle":  "Angles réversible",
-                                    "texture":  "Velours"
-                                },
-                      "desc":  "canape toulouse"
-                  },
-                  {
-                      "id":  "pmwdqlo8915",
-                      "name":  "Tables Fluide",
-                      "cat":  "Tables",
-                      "price":  "389",
-                      "photos":  [
-                                     "images/pmwdqlo0012.jpg",
-                                     "images/pmwdqlo3w13.jpg",
-                                     "images/pmwdqlo8814.jpg"
-                                 ],
-                      "img":  "images/pmwdqlo0012.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "table a manger fluide pied effet chêne plateau effet bois chêne 180x90x75 cm"
-                  },
-                  {
-                      "id":  "pmwdqnf6w18",
-                      "name":  "Table tina",
-                      "cat":  "Tables",
-                      "price":  "399",
-                      "photos":  [
-                                     "images/pmwdqnf1b16.jpg",
-                                     "images/pmwdqnf6w17.jpg"
-                                 ],
-                      "img":  "images/pmwdqnf1b16.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Table a manger Tina pied effet noyer, pied effet noyer plateau effet céramique travertin mat  180x90x75"
-                  },
-                  {
-                      "id":  "pmwf4640f23",
-                      "name":  "Table Basse Mila",
-                      "cat":  "Tables",
-                      "price":  "199",
-                      "photos":  [
-                                     "images/pmwf463n719.jpg",
-                                     "images/pmwf463u420.jpg",
-                                     "images/pmwf463z321.jpg",
-                                     "images/pmwf4640f22.jpg"
-                                 ],
-                      "img":  "images/pmwf463n719.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Tableau Basse Mila plateau et pied effet noyer  90x45"
-                  },
-                  {
-                      "id":  "pmwf48tsp27",
-                      "name":  "Table repas Loka",
-                      "cat":  "Tables",
-                      "price":  "349",
-                      "photos":  [
-                                     "images/pmwf4cn0g33.jpg",
-                                     "images/pmwf4cmtd32.jpg"
-                                 ],
-                      "img":  "images/pmwf4cn0g33.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Table repas Loka plateau effet noyau"
-                  },
-                  {
-                      "id":  "pmwf4b58f31",
-                      "name":  "Table a manger Baietaa",
-                      "cat":  "Tables",
-                      "price":  "399",
-                      "photos":  [
-                                     "images/pmwf4b55228.jpg",
-                                     "images/pmwf4b56y29.jpg",
-                                     "images/pmwf4b58e30.jpg"
-                                 ],
-                      "img":  "images/pmwf4b55228.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Table a manger Baietaa effet noyer plateau céramique 120x75"
-                  },
-                  {
-                      "id":  "pmwf4dyjh38",
-                      "name":  "Buffet Leila",
-                      "cat":  "Tables",
-                      "price":  "509",
-                      "photos":  [
-                                     "images/pmwf4dyak34.jpg",
-                                     "images/pmwf4dyej35.jpg",
-                                     "images/pmwf4dyie36.jpg",
-                                     "images/pmwf4dyjh37.jpg"
-                                 ],
-                      "img":  "images/pmwf4dyak34.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Buffet Leila effet travertin 2 portes céramique effet travertin mat"
-                  },
-                  {
-                      "id":  "pmwf4f9mb43",
-                      "name":  "Meuble TV Leila",
-                      "cat":  "Meubles TV",
-                      "price":  "479",
-                      "photos":  [
-                                     "images/pmwf4f8wa39.jpg",
-                                     "images/pmwf4f8yi40.jpg",
-                                     "images/pmwf4f9i841.jpg",
-                                     "images/pmwf4f9mb42.jpg"
-                                 ],
-                      "img":  "images/pmwf4f8wa39.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Meuble TV Leila effet travertin 4 portes céramique effet travertin"
-                  },
-                  {
-                      "id":  "pmwf4jd1y47",
-                      "name":  "Table Basse Loka",
-                      "cat":  "Tables",
-                      "price":  "199",
-                      "photos":  [
-                                     "images/pmwf4jbct44.jpg",
-                                     "images/pmwf4jc9745.jpg",
-                                     "images/pmwf4jd1x46.jpg"
-                                 ],
-                      "img":  "images/pmwf4jbct44.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Table Basse Loka plateau effet noyer pied effet noyer"
-                  },
-                  {
-                      "id":  "pmwf5hgxb51",
-                      "name":  "Chaise Bulle",
-                      "cat":  "Chaises",
-                      "price":  "169",
-                      "photos":  [
-                                     "images/pmwf5hgxb50.jpg",
-                                     "images/pmwf5hgvu49.jpg",
-                                     "images/pmwf5hgux48.jpg"
-                                 ],
-                      "img":  "images/pmwf5hgxb50.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Chaise Bulle pied effet noyer Cremona beige"
-                  },
-                  {
-                      "id":  "pmwf5kxcw55",
-                      "name":  "Chaise Sierra",
-                      "cat":  "Chaises",
-                      "price":  "109",
-                      "photos":  [
-                                     "images/pmwf5kxbi53.jpg",
-                                     "images/pmwf5kxa052.jpg",
-                                     "images/pmwf5kxcv54.jpg"
-                                 ],
-                      "img":  "images/pmwf5kxbi53.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Chaise Sierra tissu Cremona beige"
-                  },
-                  {
-                      "id":  "pmwf5nxbx59",
-                      "name":  "Chaise Nordik",
-                      "cat":  "Chaises",
-                      "price":  "79",
-                      "photos":  [
-                                     "images/pmwf5nx8b57.jpg",
-                                     "images/pmwf5nx6x56.jpg",
-                                     "images/pmwf5nxbw58.jpg"
-                                 ],
-                      "img":  "images/pmwf5nx8b57.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Chaise Nordik pied noir velours beige"
-                  },
-                  {
-                      "id":  "pmwf5swuh63",
-                      "name":  "Chaise alicia",
-                      "cat":  "Chaises",
-                      "price":  "99",
-                      "photos":  [
-                                     "images/pmwf5swj360.jpg",
-                                     "images/pmwf5swq961.jpg",
-                                     "images/pmwf5swug62.jpg"
-                                 ],
-                      "img":  "images/pmwf5swj360.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Chaise Alicia pied effet chêne assises velours beige"
-                  },
-                  {
-                      "id":  "pmwf5yd1j67",
-                      "name":  "Chaise Alia",
-                      "cat":  "Chaises",
-                      "price":  "99",
-                      "photos":  [
-                                     "images/pmwf5ycpe64.jpg",
-                                     "images/pmwf5ycvq65.jpg",
-                                     "images/pmwf5yd1j66.jpg"
-                                 ],
-                      "img":  "images/pmwf5ycpe64.jpg",
-                      "attrs":  {
-
-                                },
-                      "desc":  "Chaise Alia pied effet chêne assise velours beige"
-                  }
-              ]
+ "name": "Maxi Meubles",
+ "tagline": "Meubles, literie et canapés",
+ "cats": [
+  "Canapés",
+  "Lits",
+  "Matelas",
+  "Chaises",
+  "Tables",
+  "Meubles TV"
+ ],
+ "items": [
+  {
+   "id": "mwutpe3kyunw",
+   "attrs": {},
+   "name": "Lit coffre clouté",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwutlrxzs1p2.jpg",
+    "images/mwutls1agqw8.jpg",
+    "images/mwutls50nw2x.jpg",
+    "images/mwutls8yfgqc.jpg",
+    "images/mwutlscvhhok.jpg",
+    "images/mwutlsh1yna0.jpg",
+    "images/mwutlsko90sa.jpg"
+   ],
+   "img": "images/mwutlrxzs1p2.jpg",
+   "desc": "Lit coffre clouté beige\n140x190\n160x200\n180x200",
+   "isNew": true
+  },
+  {
+   "id": "pmwawao1t1",
+   "name": "manal",
+   "cat": "Canapés",
+   "price": "690",
+   "photos": [
+    "images/pmwawao1s0.jpg",
+    "images/pmwawauck2.jpg"
+   ],
+   "img": "images/pmwawao1s0.jpg",
+   "attrs": {
+    "angle": "Angles réversible",
+    "texture": "Tissu"
+   },
+   "desc": "canapé convertible et réversible avec coffre de rangement 240x150"
+  },
+  {
+   "id": "pmwawcay24",
+   "name": "Greta",
+   "cat": "Canapés",
+   "price": "690",
+   "photos": [
+    "images/pmwawcay23.jpg"
+   ],
+   "img": "images/pmwawcay23.jpg",
+   "attrs": {
+    "angle": "Angles réversible",
+    "texture": "Tissu"
+   },
+   "desc": "canapé convertible et réversible avec coffre de rangement 230x170"
+  },
+  {
+   "id": "pmwawyfjv7",
+   "name": "Jean",
+   "cat": "Canapés",
+   "price": "1190",
+   "photos": [
+    "images/pmwawyf5z0.jpg",
+    "images/pmwawyfi44.jpg",
+    "images/pmwawyfbr2.jpg",
+    "images/pmwawyfdc3.jpg",
+    "images/pmwawyf7d1.jpg",
+    "images/pmwawyfj55.jpg",
+    "images/pmwawyfjv6.jpg"
+   ],
+   "img": "images/pmwawyf5z0.jpg",
+   "attrs": {
+    "angle": "Angles réversible",
+    "texture": "Velours"
+   }
+  },
+  {
+   "id": "pmwdlvz061",
+   "name": "Lit Bubble",
+   "cat": "Lits",
+   "price": "890",
+   "photos": [
+    "images/pmwdlvz060.jpg",
+    "images/pmwdlw7qr2.jpg"
+   ],
+   "img": "images/pmwdlvz060.jpg",
+   "attrs": {},
+   "desc": "160*200"
+  },
+  {
+   "id": "pmwdly5d65",
+   "name": "Lit Tacna",
+   "cat": "Lits",
+   "price": "540",
+   "photos": [
+    "images/pmwdly5c93.jpg",
+    "images/pmwdly5d64.jpg"
+   ],
+   "img": "images/pmwdly5c93.jpg",
+   "attrs": {},
+   "desc": "160*200"
+  },
+  {
+   "id": "pmwdm0an58",
+   "name": "Toulouse",
+   "cat": "Canapés",
+   "price": "1190",
+   "photos": [
+    "images/pmwdm0am46.jpg",
+    "images/pmwdm0an57.jpg"
+   ],
+   "img": "images/pmwdm0am46.jpg",
+   "attrs": {
+    "angle": "Angles réversible",
+    "texture": "Velours"
+   },
+   "desc": "canape toulouse"
+  },
+  {
+   "id": "pmwdqlo8915",
+   "name": "Tables Fluide",
+   "cat": "Tables",
+   "price": "389",
+   "photos": [
+    "images/pmwdqlo0012.jpg",
+    "images/pmwdqlo3w13.jpg",
+    "images/pmwdqlo8814.jpg"
+   ],
+   "img": "images/pmwdqlo0012.jpg",
+   "attrs": {},
+   "desc": "table a manger fluide pied effet chêne plateau effet bois chêne 180x90x75 cm"
+  },
+  {
+   "id": "pmwdqnf6w18",
+   "name": "Table tina",
+   "cat": "Tables",
+   "price": "399",
+   "photos": [
+    "images/pmwdqnf1b16.jpg",
+    "images/pmwdqnf6w17.jpg"
+   ],
+   "img": "images/pmwdqnf1b16.jpg",
+   "attrs": {},
+   "desc": "Table a manger Tina pied effet noyer, pied effet noyer plateau effet céramique travertin mat  180x90x75"
+  },
+  {
+   "id": "pmwf4640f23",
+   "name": "Table Basse Mila",
+   "cat": "Tables",
+   "price": "199",
+   "photos": [
+    "images/pmwf463n719.jpg",
+    "images/pmwf463u420.jpg",
+    "images/pmwf463z321.jpg",
+    "images/pmwf4640f22.jpg"
+   ],
+   "img": "images/pmwf463n719.jpg",
+   "attrs": {},
+   "desc": "Tableau Basse Mila plateau et pied effet noyer  90x45"
+  },
+  {
+   "id": "pmwf48tsp27",
+   "name": "Table repas Loka",
+   "cat": "Tables",
+   "price": "349",
+   "photos": [
+    "images/pmwf4cn0g33.jpg",
+    "images/pmwf4cmtd32.jpg"
+   ],
+   "img": "images/pmwf4cn0g33.jpg",
+   "attrs": {},
+   "desc": "Table repas Loka plateau effet noyau"
+  },
+  {
+   "id": "pmwf4b58f31",
+   "name": "Table a manger Baietaa",
+   "cat": "Tables",
+   "price": "399",
+   "photos": [
+    "images/pmwf4b55228.jpg",
+    "images/pmwf4b56y29.jpg",
+    "images/pmwf4b58e30.jpg"
+   ],
+   "img": "images/pmwf4b55228.jpg",
+   "attrs": {},
+   "desc": "Table a manger Baietaa effet noyer plateau céramique 120x75"
+  },
+  {
+   "id": "pmwf4dyjh38",
+   "name": "Buffet Leila",
+   "cat": "Tables",
+   "price": "509",
+   "photos": [
+    "images/pmwf4dyak34.jpg",
+    "images/pmwf4dyej35.jpg",
+    "images/pmwf4dyie36.jpg",
+    "images/pmwf4dyjh37.jpg"
+   ],
+   "img": "images/pmwf4dyak34.jpg",
+   "attrs": {},
+   "desc": "Buffet Leila effet travertin 2 portes céramique effet travertin mat"
+  },
+  {
+   "id": "pmwf4f9mb43",
+   "name": "Meuble TV Leila",
+   "cat": "Meubles TV",
+   "price": "479",
+   "photos": [
+    "images/pmwf4f8wa39.jpg",
+    "images/pmwf4f8yi40.jpg",
+    "images/pmwf4f9i841.jpg",
+    "images/pmwf4f9mb42.jpg"
+   ],
+   "img": "images/pmwf4f8wa39.jpg",
+   "attrs": {},
+   "desc": "Meuble TV Leila effet travertin 4 portes céramique effet travertin"
+  },
+  {
+   "id": "pmwf4jd1y47",
+   "name": "Table Basse Loka",
+   "cat": "Tables",
+   "price": "199",
+   "photos": [
+    "images/pmwf4jbct44.jpg",
+    "images/pmwf4jc9745.jpg",
+    "images/pmwf4jd1x46.jpg"
+   ],
+   "img": "images/pmwf4jbct44.jpg",
+   "attrs": {},
+   "desc": "Table Basse Loka plateau effet noyer pied effet noyer"
+  },
+  {
+   "id": "pmwf5hgxb51",
+   "name": "Chaise Bulle",
+   "cat": "Chaises",
+   "price": "169",
+   "photos": [
+    "images/pmwf5hgxb50.jpg",
+    "images/pmwf5hgvu49.jpg",
+    "images/pmwf5hgux48.jpg"
+   ],
+   "img": "images/pmwf5hgxb50.jpg",
+   "attrs": {},
+   "desc": "Chaise Bulle pied effet noyer Cremona beige"
+  },
+  {
+   "id": "pmwf5kxcw55",
+   "name": "Chaise Sierra",
+   "cat": "Chaises",
+   "price": "109",
+   "photos": [
+    "images/pmwf5kxbi53.jpg",
+    "images/pmwf5kxa052.jpg",
+    "images/pmwf5kxcv54.jpg"
+   ],
+   "img": "images/pmwf5kxbi53.jpg",
+   "attrs": {},
+   "desc": "Chaise Sierra tissu Cremona beige"
+  },
+  {
+   "id": "pmwf5nxbx59",
+   "name": "Chaise Nordik",
+   "cat": "Chaises",
+   "price": "79",
+   "photos": [
+    "images/pmwf5nx8b57.jpg",
+    "images/pmwf5nx6x56.jpg",
+    "images/pmwf5nxbw58.jpg"
+   ],
+   "img": "images/pmwf5nx8b57.jpg",
+   "attrs": {},
+   "desc": "Chaise Nordik pied noir velours beige"
+  },
+  {
+   "id": "pmwf5swuh63",
+   "name": "Chaise alicia",
+   "cat": "Chaises",
+   "price": "99",
+   "photos": [
+    "images/pmwf5swj360.jpg",
+    "images/pmwf5swq961.jpg",
+    "images/pmwf5swug62.jpg"
+   ],
+   "img": "images/pmwf5swj360.jpg",
+   "attrs": {},
+   "desc": "Chaise Alicia pied effet chêne assises velours beige"
+  },
+  {
+   "id": "pmwf5yd1j67",
+   "name": "Chaise Alia",
+   "cat": "Chaises",
+   "price": "99",
+   "photos": [
+    "images/pmwf5ycpe64.jpg",
+    "images/pmwf5ycvq65.jpg",
+    "images/pmwf5yd1j66.jpg"
+   ],
+   "img": "images/pmwf5ycpe64.jpg",
+   "attrs": {},
+   "desc": "Chaise Alia pied effet chêne assise velours beige"
+  }
+ ]
 }
