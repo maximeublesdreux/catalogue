@@ -11,6 +11,22 @@
  ],
  "items": [
   {
+   "id": "mwutrsix6uev",
+   "attrs": {},
+   "name": "Lit coffre clouté gris",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwutqd5k3lok.jpg",
+    "images/mwutqdauxu5e.jpg",
+    "images/mwutqdfclylt.jpg",
+    "images/mwutqdima7d2.jpg"
+   ],
+   "img": "images/mwutqd5k3lok.jpg",
+   "desc": "Lit coffre clouté gris\n140x190\n160x200\n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwutpe3kyunw",
    "attrs": {},
    "name": "Lit coffre clouté",
