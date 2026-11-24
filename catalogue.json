@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwuu4sskeeha",
+   "attrs": {},
+   "name": "Lit coffre Tokyo",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwuu19kqa93s.jpg",
+    "images/mwuu19orkfqw.jpg",
+    "images/mwuu19ren59o.jpg",
+    "images/mwuu19ugnguh.jpg",
+    "images/mwuu19xn101s.jpg"
+   ],
+   "img": "images/mwuu19kqa93s.jpg",
+   "desc": "Lit coffre Tokyo\n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwutx2rn2ofm",
    "attrs": {},
    "name": "Lit coffre Tokyo",
