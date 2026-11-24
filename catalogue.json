@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mwuu6yjardpw",
+   "attrs": {},
+   "name": "Lit coffre Natura",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwuu58wcv5vz.jpg",
+    "images/mwuu591n5xaq.jpg",
+    "images/mwuu594zs1b7.jpg",
+    "images/mwuu5985zckm.jpg",
+    "images/mwuu59byr4oi.jpg",
+    "images/mwuu59ffpc9j.jpg"
+   ],
+   "img": "images/mwuu58wcv5vz.jpg",
+   "desc": "Lit coffre natura beige \n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwuu4sskeeha",
    "attrs": {},
    "name": "Lit coffre Tokyo",
