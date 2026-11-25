@@ -11,6 +11,25 @@
  ],
  "items": [
   {
+   "id": "mww985uq7433",
+   "attrs": {},
+   "name": "Lit coffre coco",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mww90hpi3gzt.jpg",
+    "images/mww90hteci2k.jpg",
+    "images/mww90hxlzjvn.jpg",
+    "images/mww90i0wkbbi.jpg",
+    "images/mww90i4ffzke.jpg",
+    "images/mww90i7oq1k0.jpg",
+    "images/mww90ib0zrp2.jpg"
+   ],
+   "img": "images/mww90hpi3gzt.jpg",
+   "desc": "Lit coffre coco\n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mww8z2phnxfh",
    "attrs": {},
    "name": "Lit coffre maya",
