@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mww7g84n71y8",
+   "attrs": {},
+   "name": "Lit coffre natura",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mww7dhe95yvk.jpg",
+    "images/mww7dhir8x61.jpg",
+    "images/mww7dhlkigr8.jpg",
+    "images/mww7dhp4svka.jpg",
+    "images/mww7dht8ow80.jpg",
+    "images/mww7dhxwsidl.jpg"
+   ],
+   "img": "images/mww7dhe95yvk.jpg",
+   "desc": "Lit coffre natura gris \n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwuu6yjardpw",
    "attrs": {},
    "name": "Lit coffre Natura",
