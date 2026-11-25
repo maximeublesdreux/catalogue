@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mww8q13qgzok",
+   "attrs": {},
+   "name": "Lit coffre Luna",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mww8dd7kakm6.jpg",
+    "images/mww8ddl5auea.jpg",
+    "images/mww8ddo0lp3a.jpg",
+    "images/mww8ddqryl38.jpg",
+    "images/mww8ddtdpafd.jpg"
+   ],
+   "img": "images/mww8dd7kakm6.jpg",
+   "desc": "Lit coffre Luna beige\n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mww7g84n71y8",
    "attrs": {},
    "name": "Lit coffre natura",
