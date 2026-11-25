@@ -11,6 +11,26 @@
  ],
  "items": [
   {
+   "id": "mww8v8z8af67",
+   "attrs": {},
+   "name": "Lit coffre Luna",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mww8t0oda1n8.jpg",
+    "images/mww8t0s15xcw.jpg",
+    "images/mww8t0vrzkvf.jpg",
+    "images/mww8t0zjzy1y.jpg",
+    "images/mww8t14vgrtv.jpg",
+    "images/mww8t194gsgw.jpg",
+    "images/mww8t1f8snvx.jpg",
+    "images/mww8t1hzsav8.jpg"
+   ],
+   "img": "images/mww8t0oda1n8.jpg",
+   "desc": "Lit coffre Luna gris anthracite \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mww8v8usf5mx",
    "attrs": {},
    "name": "Lit coffre Luna",
