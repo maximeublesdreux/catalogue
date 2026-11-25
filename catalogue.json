@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mww8z2phnxfh",
+   "attrs": {},
+   "name": "Lit coffre maya",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mww8w1duso67.jpg",
+    "images/mww8w1hzjr3f.jpg",
+    "images/mww8w1lvmbuo.jpg",
+    "images/mww8w1puiwts.jpg",
+    "images/mww8w1tqgw93.jpg"
+   ],
+   "img": "images/mww8w1duso67.jpg",
+   "desc": "Lit coffre maya chenille \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mww8v8z8af67",
    "attrs": {},
    "name": "Lit coffre Luna",
