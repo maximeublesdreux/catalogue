@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mwxkgjzr60a4",
+   "attrs": {},
+   "name": "Lit coffre Rio",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwxkf0vsm522.jpg",
+    "images/mwxkf11fq519.jpg",
+    "images/mwxkf13tqaa6.jpg",
+    "images/mwxkf1692hob.jpg",
+    "images/mwxkf1977tkw.jpg",
+    "images/mwxkf1c9wrj3.jpg"
+   ],
+   "img": "images/mwxkf0vsm522.jpg",
+   "desc": "Lit coffre Rio\n140x190 \n160x200\n180x200",
+   "isNew": true
+  },
+  {
    "id": "mww985uq7433",
    "attrs": {},
    "name": "Lit coffre coco",
