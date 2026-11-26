@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxkqjwiynsd",
+   "attrs": {},
+   "name": "Lit coffre Jade",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwxkp1mothsb.jpg",
+    "images/mwxkp1qjtp85.jpg",
+    "images/mwxkp1u381aw.jpg",
+    "images/mwxkp1xwcz0d.jpg",
+    "images/mwxkp21nmmvd.jpg"
+   ],
+   "img": "images/mwxkp1mothsb.jpg",
+   "desc": "Lit coffre Jade\n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxko8w4r8so",
    "attrs": {},
    "name": "Lit coffre Parma",
