@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxpsgiqztus",
+   "attrs": {},
+   "name": "Chaise melissa",
+   "cat": "Chaises",
+   "price": "179",
+   "photos": [
+    "images/mwxprxt14skj.jpg",
+    "images/mwxprybrfhfs.jpg",
+    "images/mwxprz23uloi.jpg",
+    "images/mwxprzk7wdkc.jpg",
+    "images/mwxprzowk3pc.jpg"
+   ],
+   "img": "images/mwxprxt14skj.jpg",
+   "desc": "CHAISE MELISSA PIED CHROME ASSISE VELOURS GRIS",
+   "isNew": true
+  },
+  {
    "id": "mwxpo9agmkwe",
    "attrs": {},
    "name": "Chaise Bulle pied",
