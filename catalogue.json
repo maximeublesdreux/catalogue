@@ -11,6 +11,22 @@
  ],
  "items": [
   {
+   "id": "mwxoxcr68k2h",
+   "attrs": {},
+   "name": "Chaise Nora pied effet noyer",
+   "cat": "Chaises",
+   "price": "89",
+   "photos": [
+    "images/mwxownag2fr2.jpg",
+    "images/mwxowo2uu1pd.jpg",
+    "images/mwxowoxjd0w8.jpg",
+    "images/mwxowp0b7i3z.jpg"
+   ],
+   "img": "images/mwxownag2fr2.jpg",
+   "desc": "CHAISE NORA PIED EFFET NOYER ASSISE MARBELLA MARRON GLACE",
+   "isNew": true
+  },
+  {
    "id": "mwxoumz16nnr",
    "attrs": {},
    "name": "Chaise Nora",
