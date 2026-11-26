@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mwxnt50qw4s8",
+   "attrs": {},
+   "name": "Canape d'angle bari",
+   "cat": "Canapés",
+   "price": "1290",
+   "photos": [
+    "images/mwxnor36s889.jpg",
+    "images/mwxnortb6xyn.jpg",
+    "images/mwxnoshyh2nm.jpg",
+    "images/mwxnot98x8rd.jpg",
+    "images/mwxnotwcw7v2.jpg",
+    "images/mwxnou22tmrw.jpg"
+   ],
+   "img": "images/mwxnor36s889.jpg",
+   "desc": "CANAPE D'ANGLE BARI CONVERTIBLE + COFFRE ANGLE DROIT CREMONA ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mwxnmmqb66n1",
    "attrs": {},
    "name": "Canape d'angle bari côtelé",
