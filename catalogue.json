@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxnddxi2gtb",
+   "attrs": {},
+   "name": "Canape d'angle bari",
+   "cat": "Canapés",
+   "price": "1299",
+   "photos": [
+    "images/mwxn4y2sxfc2.jpg",
+    "images/mwxn4yjmp6jv.jpg",
+    "images/mwxn4yye8xqa.jpg",
+    "images/mwxn4zfntsr3.jpg",
+    "images/mwxn4zq2az82.jpg"
+   ],
+   "img": "images/mwxn4y2sxfc2.jpg",
+   "desc": "CANAPE D'ANGLE BARI CONVERTIBLE + COFFRE ANGLE DROIT VELOURS ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mwxn32g7vtgp",
    "attrs": {},
    "name": "Canape Cosmo",
