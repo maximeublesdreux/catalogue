@@ -11,6 +11,25 @@
  ],
  "items": [
   {
+   "id": "mwxpo9agmkwe",
+   "attrs": {},
+   "name": "Chaise Bulle pied",
+   "cat": "Chaises",
+   "price": "159",
+   "photos": [
+    "images/mwxpmpp40gfi.jpg",
+    "images/mwxpmptuqurc.jpg",
+    "images/mwxpmqarefhx.jpg",
+    "images/mwxpmqv0omu4.jpg",
+    "images/mwxpmreq8wu2.jpg",
+    "images/mwxpmrhjfyoh.jpg",
+    "images/mwxpmrlasdkg.jpg"
+   ],
+   "img": "images/mwxpmpp40gfi.jpg",
+   "desc": "CHAISE BULLE PIED EFFET NOYER CREMONA BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mwxpdobnjf64",
    "attrs": {},
    "name": "Chaise palma",
