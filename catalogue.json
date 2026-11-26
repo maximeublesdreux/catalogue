@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxl2hitiopr",
+   "attrs": {},
+   "name": "Lit coffre Eva",
+   "cat": "Lits",
+   "price": "890",
+   "photos": [
+    "images/mwxl0n8g74ky.jpg",
+    "images/mwxl0ncn8zvi.jpg",
+    "images/mwxl0ngbc7z1.jpg",
+    "images/mwxl0nk32x3v.jpg",
+    "images/mwxl0noooytj.jpg"
+   ],
+   "img": "images/mwxl0n8g74ky.jpg",
+   "desc": "Lit coffre Eva chenille\n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxkxx9ta84x",
    "attrs": {},
    "name": "Lit coffre Alma",
