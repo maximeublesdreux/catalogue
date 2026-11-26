@@ -11,6 +11,21 @@
  ],
  "items": [
   {
+   "id": "mwxl7gjg4pob",
+   "attrs": {},
+   "name": "Lit coffre Hugo",
+   "cat": "Lits",
+   "price": "590",
+   "photos": [
+    "images/mwxl66lwvvpi.jpg",
+    "images/mwxl66potlms.jpg",
+    "images/mwxl66tghbx0.jpg"
+   ],
+   "img": "images/mwxl66lwvvpi.jpg",
+   "desc": "Lit coffre beige \n90x190 \n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxl56btarr3",
    "attrs": {},
    "name": "Lit coffre Hugo",
