@@ -11,6 +11,22 @@
  ],
  "items": [
   {
+   "id": "mwxo3mh4bzd4",
+   "attrs": {},
+   "name": "Canape sorrento",
+   "cat": "Canapés",
+   "price": "899",
+   "photos": [
+    "images/mwxnxofyawcw.jpg",
+    "images/mwxnxp1whrm3.jpg",
+    "images/mwxnxpjp8hjc.jpg",
+    "images/mwxnxpn6ottl.jpg"
+   ],
+   "img": "images/mwxnxofyawcw.jpg",
+   "desc": "CANAPE SORRENTO AVEC FONCTION RELAX 2P CUIR BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mwxnt50qw4s8",
    "attrs": {},
    "name": "Canape d'angle bari",
