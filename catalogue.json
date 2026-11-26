@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mwxli3iprxcb",
+   "attrs": {},
+   "name": "Lit coffre Eda",
+   "cat": "Lits",
+   "price": "690",
+   "photos": [
+    "images/mwxlg8fli965.jpg",
+    "images/mwxlg8juixlj.jpg",
+    "images/mwxlg8nglx3p.jpg",
+    "images/mwxlg8rvmbsk.jpg",
+    "images/mwxlg8v4e9m5.jpg",
+    "images/mwxlg8z55ff8.jpg"
+   ],
+   "img": "images/mwxlg8fli965.jpg",
+   "desc": "Lit coffre Eda \n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxleixaaa3l",
    "attrs": {},
    "name": "Lit coffre Camila",
