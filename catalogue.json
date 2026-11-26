@@ -11,6 +11,21 @@
  ],
  "items": [
   {
+   "id": "mwxl56btarr3",
+   "attrs": {},
+   "name": "Lit coffre Hugo",
+   "cat": "Lits",
+   "price": "590",
+   "photos": [
+    "images/mwxl33a4q3r0.jpg",
+    "images/mwxl33duybu8.jpg",
+    "images/mwxl33hhloh7.jpg"
+   ],
+   "img": "images/mwxl33a4q3r0.jpg",
+   "desc": "Lit coffre Hugo \n90x190\n140x190 \n160x200\n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxl2hitiopr",
    "attrs": {},
    "name": "Lit coffre Eva",
