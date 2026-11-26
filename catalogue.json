@@ -11,6 +11,27 @@
  ],
  "items": [
   {
+   "id": "mwxn32g7vtgp",
+   "attrs": {},
+   "name": "Canape Cosmo",
+   "cat": "Canapés",
+   "price": "1390",
+   "photos": [
+    "images/mwxmzc9oditm.jpg",
+    "images/mwxmzckl6o4q.jpg",
+    "images/mwxmzd1whuwm.jpg",
+    "images/mwxmzdjjq7iq.jpg",
+    "images/mwxmzdumi01v.jpg",
+    "images/mwxmzec2ookx.jpg",
+    "images/mwxmzes76v9h.jpg",
+    "images/mwxmzf883gc3.jpg"
+   ],
+   "img": "images/mwxmzc9oditm.jpg",
+   "desc": "CANAPE D'ANGLE COSMO RELAX + COFFRE ANGLE GAUCHE CREMONA ANTHRACITE\n(Dispo en angle droit)",
+   "isNew": true,
+   "hidden": true
+  },
+  {
    "id": "mwxlkm0klj8e",
    "attrs": {},
    "name": "Lit coffre Dali Marbella",
