@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxleixaaa3l",
+   "attrs": {},
+   "name": "Lit coffre Camila",
+   "cat": "Lits",
+   "price": "1190",
+   "photos": [
+    "images/mwxlddtcp6x5.jpg",
+    "images/mwxlddy7wjw5.jpg",
+    "images/mwxlde3c18s8.jpg",
+    "images/mwxlde7d9kl6.jpg",
+    "images/mwxldec9ypuh.jpg"
+   ],
+   "img": "images/mwxlddtcp6x5.jpg",
+   "desc": "Lit coffre Camila\n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxlcoxq0ahc",
    "attrs": {},
    "name": "Lit coffre Alya",
