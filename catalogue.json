@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxla1l2blkt",
+   "attrs": {},
+   "name": "Lit coffre sydney",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwxl8a9d4hwg.jpg",
+    "images/mwxl8ad3vg4f.jpg",
+    "images/mwxl8akuerg8.jpg",
+    "images/mwxl8arjsbui.jpg",
+    "images/mwxl8axuqox0.jpg"
+   ],
+   "img": "images/mwxl8a9d4hwg.jpg",
+   "desc": "Lit coffre Sydney \n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxl7gjg4pob",
    "attrs": {},
    "name": "Lit coffre Hugo",
