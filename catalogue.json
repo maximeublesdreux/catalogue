@@ -11,6 +11,22 @@
  ],
  "items": [
   {
+   "id": "mwxko8w4r8so",
+   "attrs": {},
+   "name": "Lit coffre Parma",
+   "cat": "Lits",
+   "price": "799",
+   "photos": [
+    "images/mwxklfv04wvh.jpg",
+    "images/mwxklg6inuo4.jpg",
+    "images/mwxklgg45sxn.jpg",
+    "images/mwxklgqfz7v9.jpg"
+   ],
+   "img": "images/mwxklfv04wvh.jpg",
+   "desc": "Lit coffre Parma blanc casée \n140x190\n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxkkxhjrvz6",
    "attrs": {},
    "name": "Lit coffre Athena",
