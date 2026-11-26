@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxnmmqb66n1",
+   "attrs": {},
+   "name": "Canape d'angle bari côtelé",
+   "cat": "Canapés",
+   "price": "1290",
+   "photos": [
+    "images/mwxnlkjj7tlo.jpg",
+    "images/mwxnll0jlw09.jpg",
+    "images/mwxnllgjoim0.jpg",
+    "images/mwxnllvimokn.jpg",
+    "images/mwxnlm3zm03h.jpg"
+   ],
+   "img": "images/mwxnlkjj7tlo.jpg",
+   "desc": "CANAPE D'ANGLE BARI CONVERTIBLE + COFFRE ANGLE DROIT COTELE BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mwxnh6ubywld",
    "attrs": {},
    "name": "Canape d'angle bari",
