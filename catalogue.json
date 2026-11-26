@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxlkm0klj8e",
+   "attrs": {},
+   "name": "Lit coffre Dali Marbella",
+   "cat": "Lits",
+   "price": "690",
+   "photos": [
+    "images/mwxliwnkvw9x.jpg",
+    "images/mwxliwrlfm4n.jpg",
+    "images/mwxliwuew1kw.jpg",
+    "images/mwxliwxuo4md.jpg",
+    "images/mwxlix2cnjcw.jpg"
+   ],
+   "img": "images/mwxliwnkvw9x.jpg",
+   "desc": "Lit coffre Dali Marbella \n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxli3iprxcb",
    "attrs": {},
    "name": "Lit coffre Eda",
