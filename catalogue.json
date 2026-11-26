@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxoab4dbnr6",
+   "attrs": {},
+   "name": "Canape sorrento 3P",
+   "cat": "Canapés",
+   "price": "1490",
+   "photos": [
+    "images/mwxo8xtnigxf.jpg",
+    "images/mwxo8xwshnuy.jpg",
+    "images/mwxo8yl99juz.jpg",
+    "images/mwxo8z2wjb75.jpg",
+    "images/mwxo8z8zl1ty.jpg"
+   ],
+   "img": "images/mwxo8xtnigxf.jpg",
+   "desc": "CANAPE SORRENTO AVEC FONCTION RELAX 3P CUIR BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mwxo3mh4bzd4",
    "attrs": {},
    "name": "Canape sorrento",
