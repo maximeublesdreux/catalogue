@@ -11,6 +11,21 @@
  ],
  "items": [
   {
+   "id": "mwxrraa2oyu0",
+   "attrs": {},
+   "name": "TABLE BASSE GIGOGNE",
+   "cat": "Tables",
+   "price": "229",
+   "photos": [
+    "images/mwxrpzlypwy0.jpg",
+    "images/mwxrq082zwsw.jpg",
+    "images/mwxrq0bsshoj.jpg"
+   ],
+   "img": "images/mwxrpzlypwy0.jpg",
+   "desc": "TABLE BASSE GIGOGNE TOFFEE PIED EFFET NOYER  PLATEAU CERAMIQUE SHAKESPEARE GRIS D80CM",
+   "isNew": true
+  },
+  {
    "id": "mwxrm3c0z7l9",
    "attrs": {},
    "name": "Table a manger colonne",
