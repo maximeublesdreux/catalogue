@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxkxx9ta84x",
+   "attrs": {},
+   "name": "Lit coffre Alma",
+   "cat": "Lits",
+   "price": "599",
+   "photos": [
+    "images/mwxkuf7cr855.jpg",
+    "images/mwxkufbjogib.jpg",
+    "images/mwxkufer80p1.jpg",
+    "images/mwxkufi6nqh4.jpg",
+    "images/mwxkufmpptl3.jpg"
+   ],
+   "img": "images/mwxkuf7cr855.jpg",
+   "desc": "Lit coffre Alma\n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxkt9koiyjn",
    "attrs": {},
    "name": "Lit coffre Alya",
