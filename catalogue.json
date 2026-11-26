@@ -11,6 +11,25 @@
  ],
  "items": [
   {
+   "id": "mwxp0p62h1xs",
+   "attrs": {},
+   "name": "Chaise lucile",
+   "cat": "Chaises",
+   "price": "79",
+   "photos": [
+    "images/mwxozei3o8if.jpg",
+    "images/mwxozem9lxxe.jpg",
+    "images/mwxozfda7tc1.jpg",
+    "images/mwxozfwu5t63.jpg",
+    "images/mwxozgz10i36.jpg",
+    "images/mwxozh3ay7ni.jpg"
+   ],
+   "img": "images/mwxozei3o8if.jpg",
+   "oldPrice": "99",
+   "desc": "CHAISE LUCILE PIED METAL NOIR MARBELLA ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mwxoxcr68k2h",
    "attrs": {},
    "name": "Chaise Nora pied effet noyer",
