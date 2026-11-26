@@ -11,6 +11,25 @@
  ],
  "items": [
   {
+   "id": "mwxlcoxq0ahc",
+   "attrs": {},
+   "name": "Lit coffre Alya",
+   "cat": "Lits",
+   "price": "1190",
+   "photos": [
+    "images/mwxlb6a485vl.jpg",
+    "images/mwxlb6f0qzol.jpg",
+    "images/mwxlb6hn1qns.jpg",
+    "images/mwxlb6kvn0rq.jpg",
+    "images/mwxlb6okz6bl.jpg",
+    "images/mwxlb6rpazqk.jpg",
+    "images/mwxlb6v2ropn.jpg"
+   ],
+   "img": "images/mwxlb6a485vl.jpg",
+   "desc": "Lit coffre Alya\n140x190 \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxla1l2blkt",
    "attrs": {},
    "name": "Lit coffre sydney",
