@@ -11,6 +11,21 @@
  ],
  "items": [
   {
+   "id": "mwxkkxhjrvz6",
+   "attrs": {},
+   "name": "Lit coffre Athena",
+   "cat": "Lits",
+   "price": "990",
+   "photos": [
+    "images/mwxkhgf2v8ub.jpg",
+    "images/mwxkhgk2003f.jpg",
+    "images/mwxkhgnn4fk3.jpg"
+   ],
+   "img": "images/mwxkhgf2v8ub.jpg",
+   "desc": "Lit coffre Athena \n160x200 \n180x200",
+   "isNew": true
+  },
+  {
    "id": "mwxkgjzr60a4",
    "attrs": {},
    "name": "Lit coffre Rio",
