@@ -11,6 +11,25 @@
  ],
  "items": [
   {
+   "id": "mwxofn45svbo",
+   "attrs": {},
+   "name": "Canape sorrento 2P marron",
+   "cat": "Canapés",
+   "price": "899",
+   "photos": [
+    "images/mwxod8ffzvcs.jpg",
+    "images/mwxod8k5wdzq.jpg",
+    "images/mwxod92l2jnj.jpg",
+    "images/mwxod9fjno7d.jpg",
+    "images/mwxod9tvq9u9.jpg",
+    "images/mwxodaadnx5b.jpg",
+    "images/mwxodag2xkns.jpg"
+   ],
+   "img": "images/mwxod8ffzvcs.jpg",
+   "desc": "CANAPE SORRENTO AVEC FONCTION RELAX 2P CUIR MARRON",
+   "isNew": true
+  },
+  {
    "id": "mwxoab4dbnr6",
    "attrs": {},
    "name": "Canape sorrento 3P",
