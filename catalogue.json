@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mwxpdobnjf64",
+   "attrs": {},
+   "name": "Chaise palma",
+   "cat": "Chaises",
+   "price": "99",
+   "photos": [
+    "images/mwxpalzj87lj.jpg",
+    "images/mwxpamiodhja.jpg",
+    "images/mwxpamzvycix.jpg",
+    "images/mwxpangqgk3t.jpg",
+    "images/mwxpanlzzgp6.jpg"
+   ],
+   "img": "images/mwxpalzj87lj.jpg",
+   "desc": "CHAISE PALMA BOIS MASSIF PIEDS BOIS NOIR TISSU CREMONA BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mwxp0p62h1xs",
    "attrs": {},
    "name": "Chaise lucile",
