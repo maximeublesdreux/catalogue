@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mx0gfs7hqru2",
+   "attrs": {},
+   "name": "Canape d'angle Bari velours",
+   "cat": "Canapés",
+   "price": "1590",
+   "photos": [
+    "images/mx0gdek479nt.jpg",
+    "images/mx0gdeyd815d.jpg",
+    "images/mx0gdfdaipkd.jpg",
+    "images/mx0gdfsi9cz1.jpg",
+    "images/mx0gdfxlzg77.jpg"
+   ],
+   "img": "images/mx0gdek479nt.jpg",
+   "desc": "CANAPE D'ANGLE BARI CONVERTIBLE + COFFRE ANGLE DROIT VELOURS ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mx0fwrgtfq0a",
    "attrs": {},
    "name": "Canape angle beige velours",
