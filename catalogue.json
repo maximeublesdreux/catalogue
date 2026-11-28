@@ -11,6 +11,32 @@
  ],
  "items": [
   {
+   "id": "mx0czrytq214",
+   "attrs": {},
+   "name": "Chaise Sierra",
+   "cat": "Chaises",
+   "price": "109",
+   "photos": [
+    "images/mx0cw4u8o565.jpg",
+    "images/mx0cw4zebuen.jpg",
+    "images/mx0cw55nherr.jpg",
+    "images/mx0cw5deeedo.jpg",
+    "images/mx0cw5m35xxa.jpg",
+    "images/mx0cw5uzp2ka.jpg",
+    "images/mx0cw63k1lg6.jpg",
+    "images/mx0cw6cd1s1d.jpg",
+    "images/mx0cw6krhvn6.jpg",
+    "images/mx0cw6sv011x.jpg",
+    "images/mx0cw7193syh.jpg",
+    "images/mx0cw78w85nw.jpg",
+    "images/mx0cw7gd0yx6.jpg"
+   ],
+   "img": "images/mx0cw4u8o565.jpg",
+   "oldPrice": "129",
+   "desc": "CHAISE SIERRA TISSU CREMONA ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mx0cv3kj3noj",
    "attrs": {},
    "name": "Chaise Melissa",
