@@ -11,6 +11,25 @@
  ],
  "items": [
   {
+   "id": "mx0dzfs9wqk7",
+   "attrs": {},
+   "name": "Canape sorrento 3P marron",
+   "cat": "Canapés",
+   "price": "1490",
+   "photos": [
+    "images/mx0dxqexhanc.jpg",
+    "images/mx0dxqie9j1j.jpg",
+    "images/mx0dxr0gce50.jpg",
+    "images/mx0dxrf4j0ax.jpg",
+    "images/mx0dxrlt7wyu.jpg",
+    "images/mx0dxs00fcw2.jpg",
+    "images/mx0dxsfo2x6i.jpg"
+   ],
+   "img": "images/mx0dxqexhanc.jpg",
+   "desc": "CANAPE SORRENTO AVEC FONCTION RELAX 3P CUIR MARRON",
+   "isNew": true
+  },
+  {
    "id": "mx0dw9po94he",
    "attrs": {},
    "name": "Chaise Nora",
