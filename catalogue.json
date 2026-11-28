@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mx0fwrgtfq0a",
+   "attrs": {},
+   "name": "Canape angle beige",
+   "cat": "Canapés",
+   "price": "1590",
+   "photos": [
+    "images/mx0fu47gy36z.jpg",
+    "images/mx0fu4lpgwj4.jpg",
+    "images/mx0fu50a3jve.jpg",
+    "images/mx0fu5eh3wav.jpg",
+    "images/mx0fu5nk5jr2.jpg"
+   ],
+   "img": "images/mx0fu47gy36z.jpg",
+   "desc": "CANAPE D'ANGLE BARI CONVERTIBLE + COFFRE ANGLE DROIT VELOURS BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mx0ftguirgva",
    "attrs": {},
    "name": "Canape d'angle Bari beige",
