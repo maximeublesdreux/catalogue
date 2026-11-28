@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mx0dmoyawfv3",
+   "attrs": {},
+   "name": "Chaise Nora",
+   "cat": "Chaises",
+   "price": "89",
+   "photos": [
+    "images/mx0dl27vijem.jpg",
+    "images/mx0dl306re9a.jpg",
+    "images/mx0dl3png7pu.jpg",
+    "images/mx0dl4edc7sy.jpg",
+    "images/mx0dl4g9a5fv.jpg"
+   ],
+   "img": "images/mx0dl27vijem.jpg",
+   "desc": "CHAISE NORA PIED EFFET NOYER ASSISE MARBELLA MARRON GLACE",
+   "isNew": true
+  },
+  {
    "id": "mx0dkgjiu6jn",
    "attrs": {},
    "name": "Chaise Lucile",
