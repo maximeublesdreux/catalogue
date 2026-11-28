@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mx0dkgjiu6jn",
+   "attrs": {},
+   "name": "Chaise Lucile",
+   "cat": "Chaises",
+   "price": "79",
+   "photos": [
+    "images/mx0dg1zp0mmm.jpg",
+    "images/mx0dg23mv414.jpg",
+    "images/mx0dg2ooz7xu.jpg",
+    "images/mx0dg3assgvw.jpg",
+    "images/mx0dg3fsfmak.jpg"
+   ],
+   "img": "images/mx0dg1zp0mmm.jpg",
+   "oldPrice": "89",
+   "desc": "CHAISE LUCILE PIED METAL NOIR MARBELLA ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mx0dbj7y3w54",
    "attrs": {},
    "name": "Chaise Palma",
