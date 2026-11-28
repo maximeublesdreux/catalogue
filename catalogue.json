@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mx0dbj7y3w54",
+   "attrs": {},
+   "name": "Chaise Palma",
+   "cat": "Chaises",
+   "price": "99",
+   "photos": [
+    "images/mx0dawk6ke3j.jpg",
+    "images/mx0dax21z7lc.jpg",
+    "images/mx0daxkyg0jl.jpg",
+    "images/mx0day2zi6rj.jpg",
+    "images/mx0day98bssw.jpg"
+   ],
+   "img": "images/mx0dawk6ke3j.jpg",
+   "desc": "CHAISE PALMA BOIS MASSIF PIEDS BOIS NOIR TISSU CREMONA BEIGE",
+   "isNew": true
+  },
+  {
    "id": "mx0czrytq214",
    "attrs": {},
    "name": "Chaise Sierra",
