@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mx0dw9po94he",
+   "attrs": {},
+   "name": "Chaise Nora",
+   "cat": "Chaises",
+   "price": "89",
+   "photos": [
+    "images/mx0dt147fhw6.jpg",
+    "images/mx0dt1v81a2r.jpg",
+    "images/mx0dt2mu8pxu.jpg",
+    "images/mx0dt3g1eqk7.jpg",
+    "images/mx0dt3k1s1bg.jpg"
+   ],
+   "img": "images/mx0dt147fhw6.jpg",
+   "desc": "CHAISE NORA PIED EFFET CHENE ASSISE MARBELLA MARRON GLACE",
+   "isNew": true
+  },
+  {
    "id": "mx0dmoyawfv3",
    "attrs": {},
    "name": "Chaise Nora",
