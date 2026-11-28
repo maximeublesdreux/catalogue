@@ -11,6 +11,23 @@
  ],
  "items": [
   {
+   "id": "mx0cv3kj3noj",
+   "attrs": {},
+   "name": "Chaise Melissa",
+   "cat": "Chaises",
+   "price": "189",
+   "photos": [
+    "images/mx0cstqmzhjb.jpg",
+    "images/mx0csu87c7f1.jpg",
+    "images/mx0csup2g4t5.jpg",
+    "images/mx0csv6o1nbk.jpg",
+    "images/mx0csvaaixsb.jpg"
+   ],
+   "img": "images/mx0cstqmzhjb.jpg",
+   "desc": "CHAISE MELISSA PIED CHROME ASSISE VELOURS GRIS",
+   "isNew": true
+  },
+  {
    "id": "mwxs0bz72y03",
    "attrs": {},
    "name": "ARMOIRE RAYAN BOIS BLANC",
