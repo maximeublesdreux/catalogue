@@ -11,6 +11,27 @@
  ],
  "items": [
   {
+   "id": "mx0gjp8bodwh",
+   "attrs": {},
+   "name": "Canape d'angle cosmo",
+   "cat": "Canapés",
+   "price": "1390",
+   "photos": [
+    "images/mx0ghgrqt9qt.jpg",
+    "images/mx0ghh8fpz4d.jpg",
+    "images/mx0ghhhww2j5.jpg",
+    "images/mx0ghhrhxzfn.jpg",
+    "images/mx0ghi8i8tla.jpg",
+    "images/mx0ghipyl3oq.jpg",
+    "images/mx0ghj5ue6s4.jpg",
+    "images/mx0ghjocials.jpg",
+    "images/mx0ghju698co.jpg"
+   ],
+   "img": "images/mx0ghgrqt9qt.jpg",
+   "desc": "CANAPE D'ANGLE COSMO RELAX + COFFRE ANGLE GAUCHE CREMONA ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mx0gfs7hqru2",
    "attrs": {},
    "name": "Canape d'angle Bari velours",
