@@ -11,6 +11,24 @@
  ],
  "items": [
   {
+   "id": "mx0fmcnnw33m",
+   "attrs": {},
+   "name": "Canape d'angle Bari",
+   "cat": "Canapés",
+   "price": "1590",
+   "photos": [
+    "images/mx0fkpefj433.jpg",
+    "images/mx0fkq2qacpk.jpg",
+    "images/mx0fkqqvgrhl.jpg",
+    "images/mx0fkrhk7c1x.jpg",
+    "images/mx0fks8ajlv1.jpg",
+    "images/mx0fksfomzm9.jpg"
+   ],
+   "img": "images/mx0fkpefj433.jpg",
+   "desc": "CANAPE D'ANGLE BARI CONVERTIBLE + COFFRE ANGLE DROIT CREMONA ANTHRACITE",
+   "isNew": true
+  },
+  {
    "id": "mx0fk6utu3cb",
    "attrs": {},
    "name": "Canape sorrento 2P Beige",
